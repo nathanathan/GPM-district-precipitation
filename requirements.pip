@@ -1,0 +1,8 @@
+matplotlib
+numpy
+h5py
+geopandas
+pysal
+rasterstats
+affine
+pyproj
