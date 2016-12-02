@@ -23,3 +23,7 @@ cd $INSTALL_DIR ; unzip $INSTALL_DIR/uganda-districts.shp.zip
 # Download satalite weather data (size is aprox. 50GB per year)
 cd $INSTALL_DIR ; ncftpget -R -u breit@ecohealthalliance.org -p breit@ecohealthalliance.org \
 ftp://jsimpson.pps.eosdis.nasa.gov/NRTPUB/imerg/early/
+
+# Download data from the HUEN weather station in Entebbe
+wget "https://www.wunderground.com/history/airport/HUEN/2016/1/1/CustomHistory.html?dayend=30&monthend=11&yearend=2016&req_city=&req_state=&req_statename=&reqdb.zip=&reqdb.magic=&reqdb.wmo=&format=1" \
+-O $INSTALL_DIR/HUEN.csv
