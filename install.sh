@@ -17,7 +17,7 @@ cd ..
 python setup.py install
 
 # Download uganda district shapefiles
-wget http://mapeastafrica.com/?wpdmdl=1696 -O $INSTALL_DIR/uganda-districts.shp.zip
+wget http://data.energy-gis.opendata.arcgis.com/datasets/f0d63758fb8f4ded85394b51594d294a_0.zip -O $INSTALL_DIR/uganda-districts.shp.zip
 cd $INSTALL_DIR ; unzip $INSTALL_DIR/uganda-districts.shp.zip
 
 # Download satalite weather data (size is aprox. 50GB per year)
